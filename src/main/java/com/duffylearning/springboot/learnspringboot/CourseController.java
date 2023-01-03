@@ -13,7 +13,8 @@ public class CourseController {
 	public List<Course> retrieveAllCourses(){
 		return Arrays.asList(
 				new Course(1,"learn java","duffy"),
-				new Course(2,"learn spring","duffy")
+				new Course(2,"learn spring","duffy"),
+				new Course(3,"learn React","duffy")
 				);
 	}
 }
